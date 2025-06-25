@@ -2,7 +2,7 @@
 
 A simple, internal-use Figma plugin built to rename selected frames in ascending order from left to right.
 
-Built out of necessity by A R Sai Tejas) – CTO of [Infatoz](https://infatoz.com) & Lead Designer at [100xEngineers](https://100xengineers.com).
+Built out of necessity by me, for reliving from my looping work
 
 ---
 
