@@ -1,4 +1,4 @@
-# 🔢 Auto Frame Renamer – A Figma Plugin by A R Sai Tejas
+# 🔢 Auto Frame Renamer – A Figma Plugin
 
 A simple, internal-use Figma plugin built to rename selected frames in ascending order from left to right.
 
