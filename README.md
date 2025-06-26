@@ -3,6 +3,7 @@
 A minimal, internal-use Figma plugin to rename selected frames visually from left to right in ascending order.
 
 Built out of necessity to make my own life easier
+
 ---
 
 ## ✨ Features
@@ -21,16 +22,34 @@ Built out of necessity to make my own life easier
 ### 1. Clone this repo
 ```bash
 git clone https://github.com/Saitejas21/Auto-Frame-Renamer-Figma-Plugin.git
+cd Auto-Frame-Renamer-Figma-Plugin
 ```
 
-### 2. Open Figma (Standalone App, Not Web)
+### 2. Install Dependencies
+If you’re using TypeScript (code.ts), you’ll need to compile it to JavaScript.
+
+```bash
+npm install
+npm run build
+```
+
+Make sure `code.js` gets generated from `code.ts`.
+
+> If you're not using any bundler and writing raw JS in `code.js`, you can skip this step.
+
+---
+
+### 3. Open Figma (Standalone App, Not Web)
+
 Go to:
 ```
 Menu → Plugins → Development → Import Plugin from Manifest...
 ```
 Then select the `manifest.json` file inside the folder you just cloned.
 
-### 3. Use It
+---
+
+### 4. Use It
 In your Figma file:
 ```
 Menu → Plugins → Development → Auto Frame Renamer
