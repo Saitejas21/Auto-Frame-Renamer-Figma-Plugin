@@ -1,54 +1,76 @@
 # 🔢 Auto Frame Renamer – A Figma Plugin
 
-A simple, internal-use Figma plugin built to rename selected frames in ascending order from left to right.
+A minimal, internal-use Figma plugin to rename selected frames visually from left to right in ascending order.
 
-Built out of necessity by me, for reliving from my looping work
-
+Built out of necessity to make my own life easier
 ---
 
 ## ✨ Features
 
-- 🖱️ Select multiple frames in Figma
-- ⬅️➡️ Renames them visually from **left to right**
+- 🖱️ Rename only selected frames
+- ⬅️➡️ Renames from **left to right** based on canvas position (X-axis)
 - 🔁 Overwrites names starting from `1`, `2`, `3`, ...
-- 🔒 Doesn’t affect unselected frames
-- 🤖 Perfect for slide decks, UI flows, or design systems
+- 🧼 Skips untouched frames – keeps your Figma file clean
 
 ---
 
-## 🛠️ Setup & Usage
+## 🧩 How to Install & Use
 
-1. Clone or download this repo
-2. In Figma:  
-   Go to `Plugins → Development → Import Plugin from Manifest...`  
-   Select the `manifest.json` in this repo
+> No publishing or packaging required — just drop it into your Figma environment locally.
 
-3. Use it anytime from  
-   `Plugins → Development → Auto Frame Renamer`
+### 1. Clone this repo
+```bash
+git clone https://github.com/Saitejas21/Auto-Frame-Renamer-Figma-Plugin.git
+```
+
+### 2. Open Figma (Standalone App, Not Web)
+Go to:
+```
+Menu → Plugins → Development → Import Plugin from Manifest...
+```
+Then select the `manifest.json` file inside the folder you just cloned.
+
+### 3. Use It
+In your Figma file:
+```
+Menu → Plugins → Development → Auto Frame Renamer
+```
+Click the button to rename your selected frames instantly!
 
 ---
 
-## 📁 Files Explained
+## 📁 File Structure
 
-| File         | Description                        |
-|--------------|------------------------------------|
-| `code.ts`    | Core plugin logic                  |
-| `ui.html`    | Simple button interface            |
-| `manifest.json` | Figma plugin config             |
+| File             | Purpose                            |
+|------------------|-------------------------------------|
+| `code.ts`        | Main plugin logic                  |
+| `ui.html`        | Minimal UI with a button           |
+| `manifest.json`  | Figma plugin manifest config       |
+| `README.md`      | You're reading it 💁‍♂️             |
 
 ---
 
-## 💬 Why This Exists
+## 💬 Why This Plugin?
 
-I create dozens of flows every week — slides, wireframes, screens — and renaming frames manually?  
-Not anymore. This plugin is just a tiny productivity boost that makes things faster and cleaner.
+As someone who builds flows, presentations, and screen maps regularly, I needed a dead-simple way to rename slides without relying on visual sorting or checking for name conflicts.
+
+This plugin was built for myself — but sharing it in case it helps anyone else simplify their process.
+
+---
+
+## 👨‍💻 Built With
+
+- TypeScript
+- Figma Plugin API
+- Pure HTML (no frameworks)
+- Productivity cravings ☕✌️
 
 ---
 
 ## 🧠 Credits
 
 Built with ❤️ by [A R Sai Tejas](https://github.com/Saitejas21)  
-Designer. Developer. Builder. Dreamer.
+> Designer. Developer. Builder. Dreamer.
 
 ---
 
